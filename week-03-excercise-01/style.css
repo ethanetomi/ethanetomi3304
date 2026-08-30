@@ -2,7 +2,7 @@
 * { box-sizing: border-box; }
 #body{
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     background-color: bisque;
+     background-color: black;
     margin: auto;
     padding: auto;
 }
@@ -11,7 +11,7 @@
     max-width: 600px;
     margin: 0 auto;
     padding: 24px;
-    background-color: black;
+    background-color:beige;
     border: 10px white;
     #h1{
         color: brown;
