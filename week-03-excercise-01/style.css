@@ -1,0 +1,26 @@
+/* This should be applied only to  the div class */
+* { box-sizing: border-box; }
+#body{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     background-color: bisque;
+    margin: auto;
+    padding: auto;
+}
+
+#card{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 24px;
+    background-color: black;
+    border: 10px white;
+    #h1{
+        color: brown;
+        font-size: large;
+        margin: auto;
+    }
+    #p{
+        color: brown;
+        margin: auto;
+
+    }
+}
