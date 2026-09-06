@@ -16,7 +16,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     padding: 32px 0;
-  
+  background-color: #000a0c;
 }
 
 main {
@@ -82,10 +82,10 @@ main>p {
 
 .collection-card .details {
     font-size: 14px;
-    color: rgba(0, 0, 0, 0.6);
+    color: #626464;
     margin-bottom: 16px;
     font-style: italic;
-    background-color: #626464;
+    background-color: #64d6f3;
 }
 
 .collection-card .description {
