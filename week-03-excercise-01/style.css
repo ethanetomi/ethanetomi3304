@@ -1,26 +1,29 @@
-/* This should be applied only to  the div class */
-* { box-sizing: border-box; }
-#body{
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     background-color: black;
-    margin: auto;
-    padding: auto;
+* {
+    box-sizing: border-box;
 }
 
-#card{
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 24px;
+}
+
+.card {
     max-width: 600px;
     margin: 0 auto;
     padding: 24px;
-    background-color:beige;
-    border: 10px white;
-    #h1{
-        color: blue;
-        font-size: large;
-        margin: auto;
-    }
-    #p{
-        color: brown;
-        margin: auto;
+    background-color: beige;
+    border: 10px solid white;
+}
 
-    }
+.card h1 {
+    color: blue;
+    font-size: large;
+    margin: 0 0 16px;
+}
+
+.card p {
+    color: brown;
+    margin: 0;
 }
