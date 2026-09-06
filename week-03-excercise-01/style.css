@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: black;
+    background-color: #24104f;
     margin: 0;
     padding: 24px;
 }
@@ -13,17 +13,17 @@ body {
     max-width: 600px;
     margin: 0 auto;
     padding: 24px;
-    background-color: beige;
-    border: 10px solid white;
+    background-color: #fff0a6;
+    border: 10px solid #00e5ff;
 }
 
 .card h1 {
-    color: blue;
+    color: #a00060;
     font-size: large;
     margin: 0 0 16px;
 }
 
 .card p {
-    color: brown;
+    color: #24204a;
     margin: 0;
 }
