@@ -22,7 +22,7 @@ main {
     max-width: 800px;
     width: 90%;
     padding: 16px;
-    border: 1px solid rgba(5, 238, 238, 0.25);
+    border: 1px solid rgba(11, 255, 255, 0.877);
 }
 
 h1 {
@@ -38,7 +38,7 @@ h2 {
     font-size: 24px;
     margin-top: 48px;
     margin-bottom: 16px;
-    border-bottom: 1px solid rgb(114, 79, 184);
+    border-bottom: 1px solid rgb(248, 247, 250);
     padding-bottom: 16px;
 }
 
@@ -49,7 +49,7 @@ p {
 .screenshot-container {
     margin: 32px 0;
     padding: 16px;
-    border: 1px solid rgb(71, 69, 69);
+    border: 1px solid rgb(143, 19, 19);
     text-align: center;
 }
 
@@ -58,5 +58,5 @@ p {
     height: auto;
     display: block;
     margin: 0 auto;
-    border: 1px solid rgba(160, 6, 6, 0.25);
+    border: 1px solid rgba(206, 16, 16, 0.25);
 }
