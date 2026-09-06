@@ -60,7 +60,6 @@ main>p {
     padding: 16px;
     width: 300px;
     flex: 1 1 300px;
-    margin-bottom: 16px;
 }
 
 .collection-card img {
