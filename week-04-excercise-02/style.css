@@ -48,7 +48,7 @@ main>p {
 
 .collection-grid {
     margin: 48px 0;
-    display:flexbox;
+    display:flex;
     flex-wrap: wrap;
     gap: 32px;
     justify-content: center;
