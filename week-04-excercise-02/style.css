@@ -16,15 +16,15 @@ body {
     justify-content: center;
     align-items: flex-start;
     padding: 32px 0;
-  background-color: #626264;
+  background-color: #000a0c;
 }
 
 main {
     max-width: 1200px;
     width: 90%;
     padding: 16px;
-    border: 1px solid #626264;
-     background-color: #000a0c;
+    border: 1px solid #64d6f3;
+     background-color: #626464;
 }
 
 h1 {
