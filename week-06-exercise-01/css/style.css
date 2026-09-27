@@ -147,16 +147,131 @@ code {
   margin-top: 80px;
 }
 
-.nav-custom {}
+.nav-custom {
+  position: fixed;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
+  max-width: calc(100% - 32px);
+  padding: 6px;
+  background-color: #f2e9dc;
+  border: 1px solid #d8c6ad;
+  border-radius: 999px;
+  box-shadow: 0 8px 24px rgba(44, 39, 34, 0.12);
+  z-index: 1000;
+}
 
-.nav-custom ul {}
+.nav-custom ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
 
-.nav-custom li {}
+.nav-custom li {
+  margin: 0;
+}
 
-.nav-custom a {}
+.nav-custom a {
+  display: block;
+  padding: 10px 18px;
+  border-radius: 999px;
+  color: #43392f;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  line-height: 1.25;
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
 
-.nav-custom a:hover {}
+.nav-custom a:hover {
+  color: #ffffff;
+  background-color: #b65b3b;
+  transform: translateY(-1px);
+}
 
-@media (width >=480px) {}
+.nav-custom a:focus-visible,
+.nav-simple a:focus-visible,
+.nav-horizontal a:focus-visible {
+  outline: 3px solid #e6a94f;
+  outline-offset: 3px;
+}
 
-@media (width >=1024px) {}
+.nav-custom + main {
+  margin-top: 104px;
+}
+
+@media (max-width: 640px) {
+  body {
+    display: block;
+    padding: 96px 16px 24px;
+  }
+
+  main {
+    margin: 0 auto !important;
+  }
+
+  .nav-simple {
+    top: 16px;
+    left: 16px;
+    right: 16px;
+    width: auto;
+    padding: 8px;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    z-index: 1000;
+  }
+
+  .nav-simple ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+
+  .nav-simple li {
+    margin: 0;
+  }
+
+  .nav-simple a {
+    padding: 8px 10px;
+    border: 0;
+    border-radius: 4px;
+  }
+
+  .nav-simple + main,
+  .nav-horizontal + main,
+  .nav-custom + main {
+    margin: 0 auto;
+  }
+
+  .nav-horizontal {
+    padding: 0 16px;
+  }
+
+  .nav-horizontal ul {
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .nav-horizontal a {
+    padding: 12px 0;
+  }
+
+  .nav-custom {
+    top: 16px;
+  }
+
+  .nav-custom ul {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .nav-custom a {
+    padding: 9px 12px;
+  }
+}
